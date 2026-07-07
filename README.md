@@ -1,2 +1,2 @@
 # freecodecamp-python-journey
-Every workshop that I completed by following the lessons requirements.
+Every workshop or certification project that I completed by following the lessons requirements.
