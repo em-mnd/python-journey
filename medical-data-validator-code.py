@@ -36,7 +36,9 @@ medical_records = [
 
 def find_invalid_records(patient_id, age, gender, diagnosis, medications, last_visit_id):
     constraints = {
-        'patient_id': isinstance(patient_id, str)
+        'patient_id': isinstance(patient_id, str) and re.search('p\d+', patient_id, re.IGNORECASE),
+        
+
     }
 
 def validate(data):
