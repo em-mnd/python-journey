@@ -25,6 +25,7 @@ While building this project I learned:
 
 - How to filter data
 - About the regex module (by using re.fullmatch, re.IGNORECASE)
+- How to properly use dictionaries and keys but also review python syntax (functions, tuples, lists)
 
 ## How to run
 
