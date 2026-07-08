@@ -3,10 +3,6 @@ Every workshop or certification project that I completed by following the lesson
 Keeping track of everything I learn as I continue the Python curriculum on the freeCodeCamp website so that I don't lose it r forget about it.
 Good way to keep logs of what I learn and a proof of my capacity to write code when following requirements.
 
-## Projects
-- Medical data validator (# About: Medical Data Validator Code)
-- User configurator manager (# About: User configuration manager)
-
 ## About: Medical Data Validator Code
 
 This project was completed as part of the freeCodeCamp Python curriculum.
