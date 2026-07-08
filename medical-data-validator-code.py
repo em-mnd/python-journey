@@ -26,7 +26,7 @@ medical_records = [
     },
     {
         'patient_id': 'p1004',
-        'age': 56,
+        'age': 2,
         'gender': 'Male',
         'diagnosis': 'Chronic Back Pain',
         'medications': ['Ibuprofen', 'Physical Therapy'],
@@ -72,7 +72,7 @@ def validate(data):
         invalid_records = find_invalid_records(**dictionary)
         for key in invalid_records:
             val = dictionary[key]
-            print(f'Unexpected format '{key}: {val}' at position {index}.')
+            print(f"Unexpected format '{key}: {val}' at position {index}.")
             is_invalid = True
     if is_invalid:
         return False
@@ -80,4 +80,3 @@ def validate(data):
     return True
 
 validate(medical_records)
-print(find_invalid_records(**medical_records[0]))
