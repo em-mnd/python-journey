@@ -14,7 +14,7 @@ This calculator will offer basic operations : addition, substraction, division a
 
 ## What I learned
 
-- Make a pseudo code before beginning anything
+- Make a pseudo code before starting anything
 - Think like a developper but also like a user
 - How to save user input
 - Keep track of user input
