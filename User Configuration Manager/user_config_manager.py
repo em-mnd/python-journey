@@ -1,42 +1,54 @@
 test_settings = {
     'theme': 'light',
-    'volume': 'high',
     'notifications': 'enabled'
 }
 
 
 #Functions
 
-def add_setting(test_settings, key, value):
+def add_setting(test_settings, setting):
+    key, value = setting 
     key = key.lower()
     value = value.lower()
     if key in test_settings:
-        print(f"Setting '{key}' already exists! Cannot add a new setting with this name.")
-    if key not in test_settings:
+        return(f"Setting '{key}' already exists! Cannot add a new setting with this name.")
+    elif key not in test_settings:
         test_settings[key] = value
-        print(f"Setting '{key}' added with value '{value}' successfully.")
+        return(f"Setting '{key}' added with value '{value}' successfully.")
 
-def update_setting(test_settings, key, value):
+def update_setting(test_settings, setting):
+    key, value = setting
     key = key.lower()
     value = value.lower()
     if key in test_settings:
         test_settings[key] = value
-        print(f"Setting '{key}' updated to '{value}' successfully!")
-    if key not in test_settings:
-        print(f"Setting '{key}' does not exist! Cannot update a non-existing setting.")
+        return(f"Setting '{key}' updated to '{value}' successfully!")
+    elif key not in test_settings:
+        return(f"Setting '{key}' does not exist! Cannot update a non-existing setting.")
 
 def delete_setting(test_settings, key):
     key = key.lower()
     if key in test_settings:
         del test_settings[key]
-        print(f"Setting '{key}' deleted successfully!")
-    if key not in test_settings:
-        print(f"Setting not found")
+        return(f"Setting '{key}' deleted successfully!")
+    elif key not in test_settings:
+        return(f"Setting not found!")
 
 def view_settings(test_settings):
     if test_settings:
-        print("Current User Settings:")
+        result = "Current User Settings:"
         for key, value in test_settings.items():
-            print(f"{key.capitalize()}: {value}")
+            result += f"\n{key.capitalize()}: {value}"
+        return result+'\n'
     else:
-        print("No settings found.")
+        return("No settings available.")
+
+#Using the functions
+
+add_setting({'theme': 'light'}, ('THEME', 'dark'))
+add_setting({'theme': 'light'}, ('volume', 'high'))
+update_setting({'theme': 'light'}, ('theme', 'dark'))
+update_setting({'theme': 'light'}, ('volume', 'high'))
+delete_setting({'theme': 'light'}, 'theme')
+delete_setting(test_settings, 'theme')
+view_settings(test_settings)
