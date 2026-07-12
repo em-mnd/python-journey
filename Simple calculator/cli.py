@@ -47,3 +47,5 @@ if operation == "div":
                 print("Please enter a valid number.")
             else:
                 continue
+
+#menu dynamic
