@@ -5,3 +5,4 @@
 
 # I might filter completed habits for the day and then unmark them the next, but that is for later.
 # Weekly completion status might be a good idea to implement as well, but that is for later.
+
