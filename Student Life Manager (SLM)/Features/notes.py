@@ -9,3 +9,12 @@ def notes_menu():
                 print("Invalid input, please try again.")
             else:
                 pass
+
+def add_category():
+    pass
+# Categories : I'd rather have the notes separated, if i'd ever have to use a table it would be more efficient.
+# A limit of categories maybe ? Alphabetical order ?
+
+def add_notes():
+    pass
+# Thinking about adding a limit of characters, but I don't think that would be efficient. Maybe separate notes by most recent to oldest, or levels of importance then again would it be user friendly ?

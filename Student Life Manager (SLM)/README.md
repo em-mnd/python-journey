@@ -8,7 +8,7 @@ This student life manager (SLM) is made to help students organize their academic
 
 - Useful not just beautiful
 - Every feature should solve a real problem
-- Use logic and user-friendly
+- Use logic and be user-friendly
 
 ## What I'm learning
 
@@ -28,3 +28,4 @@ This project is helping me progress from writing small Python exercises to writi
 - Error handling
 - Project organization
 - Problem solving
+- Critical thinking

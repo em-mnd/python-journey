@@ -84,4 +84,4 @@ def view_tasks():
         if not tasks_list:
             print("No tasks found.")
         else:
-            pass
+            print(tasks_list)

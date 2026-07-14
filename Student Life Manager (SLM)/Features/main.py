@@ -1,4 +1,6 @@
 import tasks
+import notes
+import habits
 
 # Display the main menu options to the user
 
@@ -16,11 +18,10 @@ def slm_main_menu():
             continue
         elif main_menu_choices == '1':
             print("You selected Tasks.")
-            # Call the tasks feature function here
             tasks.tasks_menu()
         elif main_menu_choices == '2':
             print("You selected Habits.")
-            # Call the habits feature function here
+            habits.habits_menu()
         elif main_menu_choices == '3':
             print("You selected Deadlines.")
             # Call the deadlines feature function here
@@ -33,3 +34,4 @@ def slm_main_menu():
         elif main_menu_choices == '6':
             print("Exiting the Student Life Manager. Goodbye!")
             exit()
+
