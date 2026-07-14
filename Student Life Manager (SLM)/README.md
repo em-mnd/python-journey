@@ -6,8 +6,9 @@ This student life manager (SLM) is made to help students organize their academic
 
 ## Core Principles
 
-- Useful not just beautiful or well-structured
+- Useful not just beautiful
 - Every feature should solve a real problem
+- Use logic and user-friendly
 
 ## What I'm learning
 
@@ -19,6 +20,7 @@ This project is helping me progress from writing small Python exercises to writi
 - User input/output
 - String manipulation (f-string)
 - Data structures
+- Functions
 
 ## Acquired skills
 
